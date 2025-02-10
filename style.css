@@ -1,0 +1,288 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: 0;
+}
+
+.header {
+max-width: 1442px;
+width: 100%;
+margin: 0 auto;
+
+}
+header {
+    background-color: blue;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 150px;
+    background-color: blue;
+
+}
+
+.logo img {
+    width: 80px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    transition: .4s;
+    padding: 3px 10px;
+}
+
+.nav a:hover {
+    color: darkblue;
+    padding: 0px 10px
+    
+}
+
+.portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+    
+}
+
+.portfolio img {
+    width: 456px;
+    height: 580px;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-right: 200px;
+
+    
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px; /* Button size */
+    font-size: 16px; /* Text size */
+    border: none;
+    border-radius: 15px; /* Rounded corners */
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    margin-top: 15px;
+
+}
+
+.text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+        gap: 10px;
+        
+    }
+
+.text p {
+    width: 480px; /* Set a fixed width */
+    word-wrap: break-word; /* Break long words */
+    white-space: normal; /* Ensure wrapping */
+font-family: Nunito Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 32.74px;
+letter-spacing: 0.06em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.text h2 {
+font-family: Nunito Sans;
+font-size: 28px;
+font-weight: 400;
+line-height: 38.19px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.text h1 {
+font-family: Nunito;
+font-size: 50px;
+font-weight: 700;
+line-height: 68.2px;
+text-align: left;
+
+}
+
+.text h1 span {
+    color: darkblue;
+}
+.portfolio2 img {
+    width: 370px;
+    height: 480px;
+    border-radius: 20px;
+    margin-top: 230px;
+    margin-left: 300px;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 300px;
+    gap: 10px;
+    margin-top: 230px;
+    
+}
+.text2 p {
+width: 480px; /* Set a fixed width */
+word-wrap: break-word; /* Break long words */
+white-space: normal; /* Ensure wrapping */
+font-family: Nunito Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 32.74px;
+letter-spacing: 0.06em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.portfolio2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.portfolio-button {
+    background: transparent;
+    color: darkblue;
+    padding: 10px 20px; /* Button size */
+    font-size: 16px; /* Text size */
+    border: 1px solid #007bff;
+    border-radius: 15px; /* Rounded corners */
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    margin-top: 15px;
+
+    
+}
+
+.section3 {
+    background-color: lightblue;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+padding: 40px;
+}
+
+.lightb {
+    background-color: lightblue;
+    
+}
+
+.section3    {
+        max-width: 1442px;
+        width: 100%;
+        margin: 100px auto;
+}
+
+.group1 , .group2 , .group3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    max-width: 1442px;
+    width: 100%;
+    margin: 100px auto;
+
+}
+.section4 h1 {
+    text-align: center;
+    margin: 100px auto;
+}
+
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 180px;
+    gap: 30px;
+}
+.second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 180px;
+    gap: 30px;
+}
+
+.latest-work1 img , .latest-work2 img , .latest-work3 img ,
+.latest-work4 img , .latest-work5 img , .latest-work6 img {
+    width: 330px;
+    border-radius: 15px;
+}
+
+.latest-work1 , .latest-work2  , .latest-work3  ,
+.latest-work4  , .latest-work5  , .latest-work6  {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.container {
+    background-color: darkblue ;
+    border-radius: 2px;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px ;
+    margin: 0px 120px;
+}
+.first-info a , .second-info a , .third-info a { color: white;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
